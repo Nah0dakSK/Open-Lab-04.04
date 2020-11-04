@@ -6,7 +6,9 @@ namespace Open_Lab_04._04
     {
         public string FormatPhoneNumber(int[] numbers)
         {
-            throw new NotImplementedException();
+            int[] numbers = { 7, 6, 0, 5, 5, 5, 1, 2, 3, 4 }
+            string s = String.Format("(###)###-####");
+            return s;
         }
     }
 }
